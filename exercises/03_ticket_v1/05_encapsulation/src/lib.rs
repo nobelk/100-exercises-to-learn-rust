@@ -30,6 +30,17 @@ pub mod ticket {
             }
         }
 
+        pub fn title(&self) -> String {
+            return self.title.clone();
+        }
+
+        pub fn description(&self) -> String {
+            return self.description.clone();
+        }
+
+        pub fn status(&self) -> String {
+            return self.status.clone();
+        }
         // TODO: Add three public methods to the `Ticket` struct:
         //  - `title` that returns the `title` field.
         //  - `description` that returns the `description` field.
